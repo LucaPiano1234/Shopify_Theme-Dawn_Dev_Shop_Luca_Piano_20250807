@@ -1,5 +1,15 @@
-<div style="background: red; padding: 20px; font-size: 30px;">
-  TEST: Wir haben {{ collections.count }}Produkte im Shop! Wilkommen in {{ shop.name }}!
+<div style="background: #f8f9fa; 
+            border-left: 4px solid #28a745; 
+            padding: 20px; 
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 5px;">
+  <p style="margin: 0; 
+            font-size: 18px; 
+            color: #333; 
+            font-weight: bold;">
+    🏪 Unser Shop bietet Ihnen {{ collections.all.products_count }} verschiedene Produkte! Wilkommen im {{ shop.name}}
+  </p>
 </div>
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
