@@ -44,6 +44,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/20240912_Wechsler_Erben_Banner_Homepage_5.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
