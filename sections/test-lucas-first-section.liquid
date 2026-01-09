@@ -1,5 +1,14 @@
 <div class="page-width">
-<p>{{section.settings.mein_erstes_textfeld}}</p>
+<h2 style="text-align: center">{{section.settings.mein_erstes_textfeld}}</h2>
+  
+<div class="fl-container">
+{% for block in section.blocks %}  
+  <div class="fl-item">
+  <img src="{{block.settings.image | img_url: '2048x'}}" style="width: 96px;" alt="Trust-Image">
+  <p class="fl-trust-text">{{block.settings.beschreibungstext}}</p>
+  </div>
+{% endfor %}
+</div>
 </div>
 
 {% schema %}

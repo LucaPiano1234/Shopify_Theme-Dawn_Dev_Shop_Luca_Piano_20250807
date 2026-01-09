@@ -248,6 +248,45 @@
     },
     "test_lucas_first_section_6FKhbG": {
       "type": "test-lucas-first-section",
+      "blocks": {
+        "custom_mghQLD": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        },
+        "custom_geTTUW": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        },
+        "custom_Uxqqh7": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        },
+        "custom_XxpXJY": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        },
+        "custom_ieHnKw": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        }
+      },
+      "block_order": [
+        "custom_mghQLD",
+        "custom_geTTUW",
+        "custom_Uxqqh7",
+        "custom_XxpXJY",
+        "custom_ieHnKw"
+      ],
       "name": "Erste eigene Section - Presets Titel",
       "settings": {
         "mein_erstes_textfeld": "Hey, ich bin dein erstes Textfeld"
