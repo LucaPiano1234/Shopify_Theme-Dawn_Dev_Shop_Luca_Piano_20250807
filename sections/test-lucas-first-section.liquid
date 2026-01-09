@@ -1,20 +1,39 @@
 <div class="page-width">
-<p>{{section.settings.label}}</p>
-<p>{{section.settings.id}}</p>
+<p>{{section.settings.mein_erstes_textfeld}}</p>
 </div>
 
 {% schema %}
   {
-    "name": "Erste eigene Section!",
+    "name": "Erste eigene Section",
+    "max_blocks": 5,
     "settings": [{
       "type": "text",
       "id": "mein_erstes_textfeld",
       "label": "Überschrift",
-      "default": "Hey, ich bin dein erstes Textfeld"
+      "default": "Hey, ich bin deine erste Überschrift"
 }],
+  "blocks": [
+     {
+       "name": "Bild-Text",
+       "type": "custom",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+         {
+           "type": "text",
+           "id": "beschreibungstext",
+           "label": "Beschreibungstext",
+           "default": "Dies ist ein Beschreibungstext"
+         }
+       ]
+     }
+   ],
     "presets": [
       {
-        "name": "Luca's first section",
+        "name": "Erste eigene Section - Presets Titel",
         "category": "Custom"
       }
     ]
