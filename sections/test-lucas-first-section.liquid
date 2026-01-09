@@ -12,14 +12,33 @@
 </div>
 
 {% schema %}
-  {
+{
     "name": "Erste eigene Section",
     "max_blocks": 5,
     "settings": [{
       "type": "text",
       "id": "mein_erstes_textfeld",
       "label": "Überschrift",
-      "default": "Hey, ich bin deine erste Überschrift"
+      "default": "Hey, ich bin dein erstes Textfeld"
+},    
+      {
+  "type": "range",
+  "id": "font_size",
+  "min": 12,
+  "max": 48,
+  "step": 1,
+  "unit": "px",
+  "label": "Schriftgröße Beschreibung",
+  "default": 12
+},{
+  "type": "range",
+  "id": "image-size",
+  "min": 48,
+  "max": 192,
+  "step": 16,
+  "unit": "px",
+  "label": "Breite des Bildes",
+  "default": 96
 }],
   "blocks": [
      {
