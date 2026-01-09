@@ -1,0 +1,27 @@
+<div class="page-width">
+<p>{{section.settings.mein_erstes_textfeld}}</p>
+</div>
+
+{% schema %}
+  {
+    "name": "Erste eigene Section",
+    "settings": [{
+      "type": "text",
+      "id": "mein_erstes_textfeld",
+      "label": "Überschrift",
+      "default": "Hey, ich bin dein erstes Textfeld"
+}],
+    "presets": [
+      {
+        "name": "Erste eigene Section - Presets Titel",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
