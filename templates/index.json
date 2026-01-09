@@ -256,10 +256,19 @@
             "beschreibungstext": "Dies ist ein Beschreibungstext",
             "subtitle": "Loremp ipsum"
           }
+        },
+        "custom_w7nCef": {
+          "type": "custom",
+          "settings": {
+            "image": "shopify://shop_images/Fackelnachtwanderung_Bild_8.jpg",
+            "beschreibungstext": "Dies ist ein Beschreibungstext",
+            "subtitle": "Loremp ipsum"
+          }
         }
       },
       "block_order": [
-        "custom_mghQLD"
+        "custom_mghQLD",
+        "custom_w7nCef"
       ],
       "name": "Erste eigene Section - Presets Titel",
       "settings": {
