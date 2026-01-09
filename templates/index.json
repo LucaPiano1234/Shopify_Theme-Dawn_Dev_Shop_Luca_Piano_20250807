@@ -235,6 +235,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "test_lucas_first_section_iDeJEA": {
+      "type": "test-lucas-first-section",
+      "name": "Luca's first section",
+      "settings": {
+        "mein_erstes_textfeld": "Hey, ich bin dein erstes Textfeld"
+      }
     }
   },
   "order": [
@@ -244,6 +251,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "test_lucas_first_section_iDeJEA"
   ]
 }
