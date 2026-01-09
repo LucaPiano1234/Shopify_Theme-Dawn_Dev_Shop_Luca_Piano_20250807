@@ -13,60 +13,70 @@
 
 {% schema %}
 {
-    "name": "Erste eigene Section",
-    "max_blocks": 5,
-    "settings": [{
+  "name": "Erste eigene Section",
+  "max_blocks": 5,
+  "settings": [
+    {
       "type": "text",
       "id": "mein_erstes_textfeld",
       "label": "Überschrift",
       "default": "Hey, ich bin dein erstes Textfeld"
-},    
-      {
-  "type": "range",
-  "id": "font_size",
-  "min": 12,
-  "max": 48,
-  "step": 1,
-  "unit": "px",
-  "label": "Schriftgröße Überschrift",
-  "default": 12
-},{
-  "type": "range",
-  "id": "image-size",
-  "min": 48,
-  "max": 192,
-  "step": 16,
-  "unit": "px",
-  "label": "Breite des Bildes",
-  "default": 96
-}],
+    },    
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "label": "Schriftgröße Überschrift",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "image-size",
+      "min": 48,
+      "max": 192,
+      "step": 16,
+      "unit": "px",
+      "label": "Breite des Bildes",
+      "default": 96
+    }
+  ],
   "blocks": [
-     {
-       "name": "Bild-Text",
-       "type": "custom",
-       "settings": [
-         {
-           "type": "image_picker",
-           "id": "image",
-           "label": "Image"
-         },
-         {
-           "type": "text",
-           "id": "beschreibungstext",
-           "label": "Beschreibungstext",
-           "default": "Dies ist ein Beschreibungstext"
-         }
-       ]
-     }
-   ],
-    "presets": [
-      {
-        "name": "Erste eigene Section - Presets Titel",
-        "category": "Custom"
-      }
-    ]
-  }
+    {
+      "name": "Bild-Text",
+      "type": "custom",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "beschreibungstext",
+          "label": "Beschreibungstext",
+          "default": "Text"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Untertitel",
+          "default": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Erste eigene Section - Presets Titel",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
 
 <style>
   .fl-container {
