@@ -256,6 +256,12 @@
             "beschreibungstext": "Dies ist ein Beschreibungstext"
           }
         },
+        "custom_raaTzr": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        },
         "custom_WhdFjd": {
           "type": "custom",
           "settings": {
@@ -277,6 +283,7 @@
       },
       "block_order": [
         "custom_mghQLD",
+        "custom_raaTzr",
         "custom_WhdFjd",
         "custom_CDHQMX",
         "custom_akHhft"
