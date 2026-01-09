@@ -49,8 +49,53 @@
   }
 {% endschema %}
 
+<style>
+  .fl-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: top;
+    }
+    
+    .fl-item {
+      /*background-color: lightgrey;*/
+      width: 19%;
+    }
+    
+    .fl-item p, .fl-item img {
+      text-align: center;
+      margin: auto;
+      display: block;
+    }
+    
+    .fl-item p {
+      padding: 8px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    
+    .fl-item img {
+      margin-top: 32px;
+      width: 44px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .fl-item {
+        background-color: white;
+        width: 49%;
+      }
+      .fl-item:first-child {
+        display: none;
+      }
+    }
+    
+    .none {
+      display: none;
+    }
+</style>
+
 {% stylesheet %}
 {% endstylesheet %}
-
+    
 {% javascript %}
 {% endjavascript %}
