@@ -236,11 +236,11 @@
         "padding_bottom": 36
       }
     },
-    "test_YaHm7f": {
-      "type": "test",
+    "test_lucas_first_section_iW8mMD": {
+      "type": "test-lucas-first-section",
       "name": "Erste eigene Section - Presets Titel",
       "settings": {
-        "mein_erstes_textfeld": "test"
+        "mein_erstes_textfeld": "Hey, ich bin dein erstes Textfeld"
       }
     }
   },
@@ -252,6 +252,6 @@
     "collage",
     "video",
     "multicolumn",
-    "test_YaHm7f"
+    "test_lucas_first_section_iW8mMD"
   ]
 }
