@@ -255,10 +255,31 @@
             "image": "shopify://shop_images/Fackelnachtwanderung_Bild_8.jpg",
             "beschreibungstext": "Dies ist ein Beschreibungstext"
           }
+        },
+        "custom_WhdFjd": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        },
+        "custom_CDHQMX": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
+        },
+        "custom_akHhft": {
+          "type": "custom",
+          "settings": {
+            "beschreibungstext": "Dies ist ein Beschreibungstext"
+          }
         }
       },
       "block_order": [
-        "custom_mghQLD"
+        "custom_mghQLD",
+        "custom_WhdFjd",
+        "custom_CDHQMX",
+        "custom_akHhft"
       ],
       "name": "Erste eigene Section - Presets Titel",
       "settings": {
