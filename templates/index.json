@@ -283,7 +283,9 @@
       ],
       "name": "Erste eigene Section - Presets Titel",
       "settings": {
-        "mein_erstes_textfeld": "Hey, ich bin dein erstes Textfeld"
+        "mein_erstes_textfeld": "Hey, ich bin dein erstes Textfeld",
+        "font_size": 18,
+        "image-size": 96
       }
     }
   },
