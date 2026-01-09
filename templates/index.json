@@ -254,7 +254,7 @@
           "settings": {
             "image": "shopify://shop_images/Fackelnachtwanderung_Bild_8.jpg",
             "beschreibungstext": "Dies ist ein Beschreibungstext",
-            "subtitle": ""
+            "subtitle": "Loremp ipsum"
           }
         }
       },
@@ -264,8 +264,8 @@
       "name": "Erste eigene Section - Presets Titel",
       "settings": {
         "mein_erstes_textfeld": "Hey, ich bin dein erstes Textfeld",
-        "font_size": 18,
-        "image-size": 80
+        "font_size": 15,
+        "image-size": 128
       }
     }
   },
